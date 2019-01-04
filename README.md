@@ -1,2 +1,0 @@
-# panasonic
-panasonic_tests
