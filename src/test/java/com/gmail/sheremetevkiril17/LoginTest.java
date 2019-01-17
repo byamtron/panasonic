@@ -29,11 +29,12 @@ public class LoginTest {
     @Test
     public void userLogin() throws Exception {
         WebElement loginField = driver.findElement(By.id("i0116"));
-        loginField.sendKeys("sheremetyevkv@oxagile.com");
+        loginField.sendKeys("user1@redadtest1.onmicrosoft.com");
         WebElement loginNext = driver.findElement(By.id("idSIButton9"));
         loginNext.click();
         WebElement passwordField = driver.findElement(By.id("i0118"));
-        passwordField.sendKeys("Rbhfrtyqwe1723");
+        passwordField.sendKeys("Maba6421!");
+
         try {
             Robot robot = new Robot();
             robot.mouseMove(1100, 665);
@@ -47,18 +48,14 @@ public class LoginTest {
             throw new Exception(e);
         }
 
-        /*WebElement profileUser = driver.findElement(By.cssSelector(".login-button__user"));
-        String mailUser = profileUser.getText();
-        Assert.assertEquals("autotestorgua@ukr.net", mailUser);*/
+        WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
+        String loginResult = buttonSearch.getText();
+        Assert.assertEquals("SEARCH", loginResult);
 
     }
 
-/*    @AfterClass
+    @AfterClass
     public static void tearDown() {
-        WebElement menuUser = driver.findElement(By.cssSelector(".login-button__menu-icon"));
-        menuUser.click();
-        WebElement logoutButton = driver.findElement(By.id("login__logout"));
-        logoutButton.click();
         driver.quit();
-    }*/
+    }
 }
