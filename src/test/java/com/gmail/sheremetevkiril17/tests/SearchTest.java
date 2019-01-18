@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.Assert;
 
 import com.gmail.sheremetevkiril17.pages.LoginAzure;
 
@@ -31,6 +30,7 @@ public class SearchTest {
         loginAzure.loginFlow();
 
         //Проверка на то, что поиск отрабатывает (если есть хоть оидн видос предзагруженный)
+
         WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
         buttonSearch.click();
 
@@ -57,9 +57,25 @@ public class SearchTest {
             System.out.println("Test Failed for Sorting");
         }
 
-        /*WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
-        String loginResult = buttonSearch.getText();
-        Assert.assertEquals("SEARCH", loginResult);*/
+        //Проверка поиска по File name
+
+        WebElement fileName = driver.findElement(By.id("field-name"));
+        fileName.sendKeys("sep4-3-Group-Cars");
+        buttonSearch.click();
+
+        try{
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e){
+            throw new Exception(e);
+        }
+
+        if(!driver.findElements(By.cssSelector("div .VideoListItem__name__2Pcaf[title=sep4-3-Group-Cars]")).isEmpty()) {
+            System.out.println("Test Passed for Search_by_Name");
+        }
+        else {
+            System.out.println("Test Failed for Search_by_Name");
+        }
 
     }
 
