@@ -68,6 +68,11 @@ public class UploadTest {
             System.out.println("Test Failed for Upload New Evidence");
         }
 
+        //Check uploaded file on the video list
+
+        WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
+        buttonSearch.click();
+
     }
 
 
