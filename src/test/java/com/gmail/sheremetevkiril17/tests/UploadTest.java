@@ -73,6 +73,20 @@ public class UploadTest {
         WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
         buttonSearch.click();
 
+        try{
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e){
+            throw new Exception(e);
+        }
+
+        if(!driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).isEmpty()) {
+            System.out.println("Test Passed for Uploaded Search check");
+        }
+        else {
+            System.out.println("Test Failed for Uploaded Search check");
+        }
+
     }
 
 

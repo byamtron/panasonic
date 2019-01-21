@@ -1,5 +1,6 @@
 package com.gmail.sheremetevkiril17.tests;
 
+import com.gmail.sheremetevkiril17.pages.LoginAzure;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,9 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.gmail.sheremetevkiril17.pages.LoginAzure;
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 
 
 public class SearchTest {
@@ -29,7 +32,42 @@ public class SearchTest {
 
         loginAzure.loginFlow();
 
-        //Проверка на то, что поиск отрабатывает (если есть хоть оидн видос предзагруженный)
+        //Upload New Evidence
+
+        WebElement uploadNewEvidance = driver.findElement(By.cssSelector("div .Upload__button__1UKe8"));
+        uploadNewEvidance.click();
+
+        StringSelection clipboard = new StringSelection("D:\\kiker.mp4");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(clipboard, null);
+
+        Robot robot = null;
+
+        try {
+            robot = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+        robot.delay(250);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.delay(150);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+
+        if(!driver.findElements(By.cssSelector("div .UploadListItem__success__2-HA0")).isEmpty())
+        {
+            System.out.println("Test Passed for Upload New Evidence");
+        }
+        else {
+            System.out.println("Test Failed for Upload New Evidence");
+        }
+
+        //Проверка на то, что поиск отрабатывает
 
         WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
         buttonSearch.click();
@@ -48,19 +86,11 @@ public class SearchTest {
             System.out.println("Test Failed for Search check");
         }
 
-        //Проверка, что по дефолту сортировка по убыванию
-
-        if(driver.findElements(By.cssSelector("img.VideoList__sortImage__2I0nO.VideoList__sortImageAsc__oNKk3")).isEmpty()) {
-            System.out.println("Test Passed for Sorting");
-        }
-        else {
-            System.out.println("Test Failed for Sorting");
-        }
 
         //Проверка поиска по File name
 
         WebElement fileName = driver.findElement(By.id("field-name"));
-        fileName.sendKeys("sep4-3-Group-Cars");
+        fileName.sendKeys("kiker");
         buttonSearch.click();
 
         try{
@@ -70,7 +100,7 @@ public class SearchTest {
             throw new Exception(e);
         }
 
-        if(!driver.findElements(By.cssSelector("div .VideoListItem__name__2Pcaf[title=sep4-3-Group-Cars]")).isEmpty()) {
+        if(!driver.findElements(By.cssSelector("div .VideoListItem__name__2Pcaf[title=kiker]")).isEmpty()) {
             System.out.println("Test Passed for Search_by_Name");
         }
         else {
