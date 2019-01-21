@@ -12,8 +12,7 @@ import org.junit.Test;
 import com.gmail.sheremetevkiril17.pages.LoginAzure;
 
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
+import java.awt.event.InputEvent;
 
 
 public class _3_OpenPlayerTest {
@@ -33,10 +32,33 @@ public class _3_OpenPlayerTest {
 
         loginAzure.loginFlow();
 
-        //Upload New Evidence via Robot class
+        //Open In Player
 
-        WebElement uploadNewEvidance = driver.findElement(By.cssSelector("div .Upload__button__1UKe8"));
-        uploadNewEvidance.click();
+        WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
+        buttonSearch.click();
+
+        try{
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e){
+            throw new Exception(e);
+        }
+
+        try {
+            Robot robot = new Robot();
+            robot.mouseMove(500, 335);
+            robot.delay(500);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        }
+        catch (AWTException e)
+        {
+            throw new Exception(e);
+        }
+
+        WebElement openInPlayer = driver.findElement(By.xpath("//button[@title = 'Open in player']"));
+        openInPlayer.click();
 
 
     }
