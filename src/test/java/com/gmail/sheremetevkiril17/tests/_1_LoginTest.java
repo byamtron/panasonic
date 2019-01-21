@@ -12,7 +12,7 @@ import org.junit.Assert;
 
 import com.gmail.sheremetevkiril17.pages.LoginAzure;
 
-public class LoginTest {
+public class _1_LoginTest {
 
     private static WebDriver driver;
     private static LoginAzure loginAzure;

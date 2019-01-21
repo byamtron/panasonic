@@ -15,7 +15,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 
-public class SearchTest {
+public class _2_SearchTest {
 
     private static WebDriver driver;
     private static LoginAzure loginAzure;
@@ -109,8 +109,8 @@ public class SearchTest {
 
     }
 
-    /*@AfterClass
+    @AfterClass
     public static void tearDown() {
         driver.quit();
-    }*/
+    }
 }
