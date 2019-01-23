@@ -14,7 +14,6 @@ import com.gmail.sheremetevkiril17.pages.LoginAzure;
 import java.awt.*;
 import java.awt.event.InputEvent;
 
-
 public class _3_OpenPlayerTest {
 
     private static WebDriver driver;
@@ -32,7 +31,7 @@ public class _3_OpenPlayerTest {
 
         loginAzure.loginFlow();
 
-        //Open In Player
+        //Open video in player
 
         WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
         buttonSearch.click();
@@ -51,21 +50,61 @@ public class _3_OpenPlayerTest {
             robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             robot.delay(500);
             robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         }
         catch (AWTException e)
         {
             throw new Exception(e);
         }
 
-        WebElement openInPlayer = driver.findElement(By.xpath("//button[@title = 'Open in player']"));
-        openInPlayer.click();
+        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+            System.out.println("Test Passed for open in player check");
+        }
+        else {
+            System.out.println("Test Failed for open in player check");
+        }
 
+        //Open full screen video in player
+
+        WebElement openInFullScreen = driver.findElement(By.cssSelector("button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon"));
+        openInFullScreen.click();
+
+        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > div > div.video-react-control-bar.video-react-control-bar-auto-hide.VideoListItem__controlBar__a_e-- > button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon")).isEmpty()) {
+            System.out.println("Test Passed for open full screen in player check");
+        }
+        else {
+            System.out.println("Test Failed for open full screen in player check");
+        }
+
+        //Close full screen video in player
+
+        WebElement closeFullScreen = driver.findElement(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > div > div.video-react-control-bar.video-react-control-bar-auto-hide.VideoListItem__controlBar__a_e-- > button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon"));
+        closeFullScreen.click();
+
+        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+            System.out.println("Test Passed for close from full screen check");
+        }
+        else {
+            System.out.println("Test Failed for close from full screen check");
+        }
+
+        //Close player
+
+        WebElement closePlayer = driver.findElement(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img"));
+        closePlayer.click();
+
+        if(driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+            System.out.println("Test Passed for close player check");
+        }
+        else {
+            System.out.println("Test Failed for close player check");
+        }
 
     }
 
-
-    /*@AfterClass
+    @AfterClass
     public static void tearDown() {
         driver.quit();
-    }*/
+    }
 }
