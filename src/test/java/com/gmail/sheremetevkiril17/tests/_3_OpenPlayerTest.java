@@ -58,7 +58,7 @@ public class _3_OpenPlayerTest {
             throw new Exception(e);
         }
 
-        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+        if(!driver.findElements(By.cssSelector("div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
             System.out.println("Test Passed for open in player check");
         }
         else {
@@ -70,7 +70,7 @@ public class _3_OpenPlayerTest {
         WebElement openInFullScreen = driver.findElement(By.cssSelector("button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon"));
         openInFullScreen.click();
 
-        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > div > div.video-react-control-bar.video-react-control-bar-auto-hide.VideoListItem__controlBar__a_e-- > button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon")).isEmpty()) {
+        if(!driver.findElements(By.cssSelector("button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon")).isEmpty()) {
             System.out.println("Test Passed for open full screen in player check");
         }
         else {
@@ -79,10 +79,10 @@ public class _3_OpenPlayerTest {
 
         //Close full screen video in player
 
-        WebElement closeFullScreen = driver.findElement(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > div > div.video-react-control-bar.video-react-control-bar-auto-hide.VideoListItem__controlBar__a_e-- > button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon"));
+        WebElement closeFullScreen = driver.findElement(By.cssSelector("button.VideoListItem__controlBar__a_e--.video-react-icon-fullscreen-exit.video-react-fullscreen-control.video-react-control.video-react-button.video-react-icon"));
         closeFullScreen.click();
 
-        if(!driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+        if(!driver.findElements(By.cssSelector("div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
             System.out.println("Test Passed for close from full screen check");
         }
         else {
@@ -91,10 +91,10 @@ public class _3_OpenPlayerTest {
 
         //Close player
 
-        WebElement closePlayer = driver.findElement(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img"));
+        WebElement closePlayer = driver.findElement(By.cssSelector("div.VideoListItem__containerVideo__3u36t > div > button > img"));
         closePlayer.click();
 
-        if(driver.findElements(By.cssSelector("body > div > div:nth-child(1) > div.SearchPage__content__EkRe3 > div.SearchPage__column__1uwoE.SearchPage__listColumn__4qOqI > div > div > div.VideoList__content__Hy8XE > div:nth-child(1) > div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
+        if(driver.findElements(By.cssSelector("div.VideoListItem__containerVideo__3u36t > div > button > img")).isEmpty()) {
             System.out.println("Test Passed for close player check");
         }
         else {
