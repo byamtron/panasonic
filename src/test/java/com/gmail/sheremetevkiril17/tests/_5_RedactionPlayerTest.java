@@ -14,7 +14,7 @@ import com.gmail.sheremetevkiril17.pages.LoginAzure;
 import java.awt.*;
 import java.awt.event.InputEvent;
 
-public class _4_OpenInRedactionPlayerTest {
+public class _5_RedactionPlayerTest {
 
     private static WebDriver driver;
     private static LoginAzure loginAzure;
@@ -27,11 +27,11 @@ public class _4_OpenInRedactionPlayerTest {
     }
 
     @Test
-    public void openInRedactionPlayerTest() throws Exception {
+    public void redactionPlayerTest() throws Exception {
 
         loginAzure.loginFlow();
 
-        //Open video in redaction player
+        //Play video in Redaction player
 
         WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
         buttonSearch.click();
@@ -55,16 +55,43 @@ public class _4_OpenInRedactionPlayerTest {
             throw new Exception(e);
         }
 
-        if (!driver.findElements(By.cssSelector("div.FileManager__title__2nHOs")).isEmpty()) {
-            System.out.println("Test Passed for open video in redaction player check");
-        } else {
-            System.out.println("Test Failed for open video in redaction player check");
+        try{
+            Thread.sleep(3000);
         }
+        catch(InterruptedException e){
+            throw new Exception(e);
+        }
+
+        WebElement buttonPlayVideo = driver.findElement(By.cssSelector("button[title=Play]"));
+        buttonPlayVideo.click();
+
+        if (!driver.findElements(By.cssSelector("button[title=Pause]")).isEmpty()) {
+            System.out.println("Test Passed for play video in Redaction player check");
+        } else {
+            System.out.println("Test Failed for play video in Redaction player check");
+        }
+
+        try{
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e){
+            throw new Exception(e);
+        }
+
+        WebElement buttonPauseVideo = driver.findElement(By.cssSelector("button[title=Pause]"));
+        buttonPauseVideo.click();
+
+        if (!driver.findElements(By.cssSelector("button[title=Play]")).isEmpty()) {
+            System.out.println("Test Passed for pause video in Redaction player check");
+        } else {
+            System.out.println("Test Failed for pause video in Redaction player check");
+        }
+
     }
 
-    @AfterClass
+    /*@AfterClass
     public static void tearDown() {
         driver.quit();
-    }
+    }*/
 
 }
