@@ -31,11 +31,11 @@ public class LoginAzure {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.navigate().to("https://panasonic-redaction-qa.oxagile.com");
+        driver.navigate().to("https://panasonic-redaction-stage.oxagile.com");
 
-        loginField.sendKeys("user1@redadtest1.onmicrosoft.com");
+        loginField.sendKeys("sheremetyevkv@oxagile.com");
         loginNext.click();
-        passwordField.sendKeys("Maba6421!");
+        passwordField.sendKeys("Rbhfrtyqwe1723");
 
         try {
             Robot robot = new Robot();
