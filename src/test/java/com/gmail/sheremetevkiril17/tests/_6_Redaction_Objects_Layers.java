@@ -56,7 +56,7 @@ public class _6_Redaction_Objects_Layers {
         }
 
         try{
-            Thread.sleep(3000);
+            Thread.sleep(6000);
         }
         catch(InterruptedException e){
             throw new Exception(e);
@@ -91,6 +91,56 @@ public class _6_Redaction_Objects_Layers {
         } else {
             System.out.println("Test Failed for selected object is displayed in the layers list");
         }
+
+        //Notification "In order to create a new object you need to unselect all the active objects"
+
+        try {
+            Robot robot = new Robot();
+            robot.mouseMove(580, 335);
+            robot.delay(500);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+
+        } catch (AWTException e) {
+            throw new Exception(e);
+        }
+
+
+        String notificationCheck = driver.findElement(By.cssSelector("div.Body__container__Lc5IM")).getText();
+        Assert.assertEquals("In order to create a new object you need to unselect all the active objects", notificationCheck);
+
+        //Create second object and check it in the Object's library
+
+        WebElement closeNotification = driver.findElement(By.cssSelector("div.Header__container__IgwF0 > button"));
+        closeNotification.click();
+        WebElement stopEditingLayer = driver.findElement(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div > button"));
+        stopEditingLayer.click();
+
+        try {
+            Robot robot = new Robot();
+            robot.mouseMove(925, 500);
+            robot.delay(500);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.mouseMove(965, 540);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        }
+        catch (AWTException e)
+        {
+            throw new Exception(e);
+        }
+
+        int objectsCount = driver.findElements(By.cssSelector("div.simplebar-scroll-content > div > div > button")).size();
+        Assert.assertEquals(2, objectsCount);
+
+        //Create second object and check it in the layers list
+
+        int layersCount = driver.findElements(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div")).size();
+        Assert.assertEquals(2, layersCount);
+        
+        stopEditingLayer.click();
 
     }
 
