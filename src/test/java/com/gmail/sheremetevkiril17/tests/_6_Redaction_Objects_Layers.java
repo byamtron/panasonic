@@ -115,8 +115,8 @@ public class _6_Redaction_Objects_Layers {
 
         WebElement closeNotification = driver.findElement(By.cssSelector("div.Header__container__IgwF0 > button"));
         closeNotification.click();
-        WebElement stopEditingLayer = driver.findElement(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div > button"));
-        stopEditingLayer.click();
+        WebElement stopEditingLayer1 = driver.findElement(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div > button"));
+        stopEditingLayer1.click();
 
         try {
             Robot robot = new Robot();
@@ -139,8 +139,9 @@ public class _6_Redaction_Objects_Layers {
 
         int layersCount = driver.findElements(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div")).size();
         Assert.assertEquals(2, layersCount);
-        
-        stopEditingLayer.click();
+
+        WebElement stopEditingLayer2 = driver.findElement(By.cssSelector("div > div:nth-child(2) > div.LayerListItem__columnLeft__3RUV3 > div > button"));
+        stopEditingLayer2.click();
 
     }
 

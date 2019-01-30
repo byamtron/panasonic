@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+            <state relative-caret-position="497">
+              <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548747894951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548851703279" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -188,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._6_Redaction_Objects_Layers">
+  <component name="RunManager" selected="JUnit.com.gmail.sheremetevkiril17.tests in panasonic">
     <configuration name="_6_Redaction_Objects_Layers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
@@ -321,8 +321,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
         <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
+        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
         <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
         <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers (2)" />
         <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers (1)" />
@@ -348,7 +348,7 @@
       <workItem from="1547197462427" duration="7000" />
       <workItem from="1547197573491" duration="200000" />
       <workItem from="1547197825189" duration="46335000" />
-      <workItem from="1548659968317" duration="7659000" />
+      <workItem from="1548659968317" duration="8727000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest">
       <created>1546613815338</created>
@@ -375,15 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 09h 55m 06s.xml">
-      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 10h 15m 17s.xml">
-      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 10h 16m 59s.xml">
-      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 10h 24m 39s.xml">
       <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
     </history-entry>
@@ -405,9 +396,18 @@
     <history-entry file="com_gmail_sheremetevkiril17_tests_in_panasonic - 2019.01.29 at 10h 32m 37s.xml">
       <configuration name="com.gmail.sheremetevkiril17.tests in panasonic" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_6_Redaction_Objects_Layers - 2019.01.29 at 10h 44m 34s.xml">
+      <configuration name="_6_Redaction_Objects_Layers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_6_Redaction_Objects_Layers - 2019.01.29 at 10h 45m 19s.xml">
+      <configuration name="_6_Redaction_Objects_Layers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_gmail_sheremetevkiril17_tests_in_panasonic - 2019.01.30 at 15h 32m 19s.xml">
+      <configuration name="com.gmail.sheremetevkiril17.tests in panasonic" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61154000" />
+    <option name="totallyTimeSpent" value="62222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,6 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.18336888" />
@@ -575,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+        <state relative-caret-position="497">
+          <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
