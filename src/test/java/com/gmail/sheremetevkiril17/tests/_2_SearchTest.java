@@ -94,7 +94,7 @@ public class _2_SearchTest {
         buttonSearch.click();
 
         try{
-            Thread.sleep(3000);
+            Thread.sleep(7000);
         }
         catch(InterruptedException e){
             throw new Exception(e);
