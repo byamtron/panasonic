@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,20 @@
     <favorites_list name="panasonic" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,8 +59,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Save_SaveAsNew.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" />
       </list>
     </option>
   </component>
@@ -136,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548851801255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549434139571" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -161,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._5_RedactionPlayerTest">
+  <component name="RunManager" selected="JUnit._6_Redaction_Objects_Layers">
     <configuration name="_2_SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
@@ -290,10 +301,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
+        <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
         <item itemvalue="JUnit._5_RedactionPlayerTest" />
         <item itemvalue="JUnit._2_SearchTest" />
-        <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
         <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
       </list>
     </recent_temporary>
@@ -317,7 +328,7 @@
       <workItem from="1547197462427" duration="7000" />
       <workItem from="1547197573491" duration="200000" />
       <workItem from="1547197825189" duration="46335000" />
-      <workItem from="1548659968317" duration="8843000" />
+      <workItem from="1548659968317" duration="9714000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest">
       <created>1546613815338</created>
@@ -344,9 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 10h 28m 04s.xml">
-      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.01.29 at 10h 29m 29s.xml">
       <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
     </history-entry>
@@ -374,9 +382,12 @@
     <history-entry file="_5_RedactionPlayerTest - 2019.01.30 at 15h 36m 18s.xml">
       <configuration name="_5_RedactionPlayerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_gmail_sheremetevkiril17_tests_in_panasonic - 2019.02.06 at 09h 16m 49s.xml">
+      <configuration name="com.gmail.sheremetevkiril17.tests in panasonic" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62338000" />
+    <option name="totallyTimeSpent" value="63209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,6 +400,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.18336888" />
@@ -530,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -548,6 +550,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#3261#3262#0" expanded="true" />
             <element signature="e#3290#3291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
