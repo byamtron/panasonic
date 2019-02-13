@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Assert;
@@ -56,7 +55,7 @@ public class _6_Redaction_Objects_Layers {
         }
 
         try{
-            Thread.sleep(6000);
+            Thread.sleep(4000);
         }
         catch(InterruptedException e){
             throw new Exception(e);
@@ -64,10 +63,10 @@ public class _6_Redaction_Objects_Layers {
 
         try {
             Robot robot = new Robot();
-            robot.mouseMove(890, 485);
+            robot.mouseMove(830, 460);
             robot.delay(500);
             robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.mouseMove(930, 520);
+            robot.mouseMove(870, 495);
             robot.delay(500);
             robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         }
@@ -120,10 +119,10 @@ public class _6_Redaction_Objects_Layers {
 
         try {
             Robot robot = new Robot();
-            robot.mouseMove(925, 500);
+            robot.mouseMove(860, 470);
             robot.delay(500);
             robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.mouseMove(965, 540);
+            robot.mouseMove(900, 510);
             robot.delay(500);
             robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         }
@@ -142,6 +141,48 @@ public class _6_Redaction_Objects_Layers {
 
         WebElement stopEditingLayer2 = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > div:nth-child(1) > label > div"));
         stopEditingLayer2.click();
+
+        //Start - Stop track
+
+        WebElement selectAll = driver.findElement(By.cssSelector("div.Properties__control__24jBs > label"));
+        selectAll.click();
+        WebElement trackButton = driver.findElement(By.xpath("//span[text() = 'track']"));
+        trackButton.click();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        WebElement trackingProgress = driver.findElement(By.xpath("//span[text() = 'stop tracking']"));
+        String trackingProgressResult = trackingProgress.getText();
+        Assert.assertEquals("stop tracking", trackingProgressResult);
+
+        WebElement stopTrackButton = driver.findElement(By.xpath("//span[text() = 'stop tracking']"));
+        stopTrackButton.click();
+
+        //VA
+
+        try {
+            Robot robot = new Robot();
+            robot.mouseMove(380, 325);
+            robot.delay(500);
+
+        } catch (AWTException e) {
+            throw new Exception(e);
+        }
+
+
+        WebElement startVA = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > a > div > button:nth-child(2)"));
+        startVA.click();
+        WebElement yesStartVA = driver.findElement(By.xpath("//span[text() = 'Yes']"));
+        yesStartVA.click();
+
+        WebElement vaProgress = driver.findElement(By.xpath("//span[text() = 'Please wait while the video file is processing']"));
+        String checkVAProgress = vaProgress.getText();
+        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);
+
 
     }
 
