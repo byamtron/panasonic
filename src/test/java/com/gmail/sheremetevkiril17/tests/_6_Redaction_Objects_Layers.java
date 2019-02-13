@@ -181,7 +181,7 @@ public class _6_Redaction_Objects_Layers {
 
         WebElement vaProgress = driver.findElement(By.xpath("//span[text() = 'Please wait while the video file is processing']"));
         String checkVAProgress = vaProgress.getText();
-        Assert.assertEquals("11Please wait while the video file is processing", checkVAProgress);
+        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);
 
 
     }
