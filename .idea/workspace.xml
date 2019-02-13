@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" afterDir="false" />
-    </list>
+    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+            <state relative-caret-position="446">
+              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +144,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,6 +335,7 @@
       <workItem from="1547197825189" duration="46335000" />
       <workItem from="1548659968317" duration="19997000" />
       <workItem from="1550052791803" duration="239000" />
+      <workItem from="1550053250572" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest">
       <created>1546613815338</created>
@@ -364,9 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.02.13 at 12h 59m 37s.xml">
-      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.02.13 at 13h 00m 18s.xml">
       <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
     </history-entry>
@@ -394,9 +389,12 @@
     <history-entry file="_6_Redaction_Objects_Layers - 2019.02.13 at 13h 17m 37s.xml">
       <configuration name="_6_Redaction_Objects_Layers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_6_Redaction_Objects_Layers_redactionObjectsLayers - 2019.02.13 at 13h 21m 01s.xml">
+      <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73731000" />
+    <option name="totallyTimeSpent" value="74520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +409,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.18336888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+        <state relative-caret-position="446">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
