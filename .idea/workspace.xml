@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
+HEAD
 =======
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" afterDir="false" />
@@ -25,13 +25,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+HEAD
             <state relative-caret-position="-1849">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
 =======
             <state relative-caret-position="-221">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
->>>>>>> UpdateTests
+UpdateTests
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
