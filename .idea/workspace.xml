@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="" />
+    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+            <state relative-caret-position="-1849">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,12 +294,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.panasonic" />
       <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
       <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
       <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
       <item itemvalue="JUnit._2_SearchTest" />
       <item itemvalue="JUnit._5_RedactionPlayerTest" />
+      <item itemvalue="Maven.panasonic" />
     </list>
     <recent_temporary>
       <list>
@@ -387,7 +389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63209000" />
+    <option name="totallyTimeSpent" value="63230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+        <state relative-caret-position="-1849">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
