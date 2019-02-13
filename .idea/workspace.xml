@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" afterDir="false" />
->>>>>>> UpdateTests
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +21,8 @@ HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-HEAD
             <state relative-caret-position="-1849">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-=======
-            <state relative-caret-position="-221">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-UpdateTests
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +153,7 @@ UpdateTests
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550052386349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550080166557" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -187,7 +178,7 @@ UpdateTests
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._6_Redaction_Objects_Layers">
+  <component name="RunManager" selected="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers">
     <configuration name="_1_LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
@@ -309,26 +300,17 @@ UpdateTests
       <method v="2" />
     </configuration>
     <list>
-<<<<<<< HEAD
-      <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
-      <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
-      <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
-      <item itemvalue="JUnit._2_SearchTest" />
-      <item itemvalue="JUnit._5_RedactionPlayerTest" />
-      <item itemvalue="Maven.panasonic" />
-=======
-      <item itemvalue="Maven.panasonic" />
       <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
       <item itemvalue="JUnit._1_LoginTest" />
       <item itemvalue="JUnit._7_LoginTestAD" />
       <item itemvalue="JUnit._7_LoginTestAD.userLogin" />
       <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
->>>>>>> UpdateTests
+      <item itemvalue="Maven.panasonic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
         <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
+        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
         <item itemvalue="JUnit._1_LoginTest" />
         <item itemvalue="JUnit._7_LoginTestAD.userLogin" />
         <item itemvalue="JUnit._7_LoginTestAD" />
@@ -413,11 +395,7 @@ UpdateTests
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="63230000" />
-=======
-    <option name="totallyTimeSpent" value="73492000" />
->>>>>>> UpdateTests
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,13 +586,8 @@ UpdateTests
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="-1849">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-=======
-        <state relative-caret-position="-221">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
->>>>>>> UpdateTests
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
