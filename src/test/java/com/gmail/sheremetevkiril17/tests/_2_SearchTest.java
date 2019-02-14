@@ -1,6 +1,7 @@
 package com.gmail.sheremetevkiril17.tests;
 
 import com.gmail.sheremetevkiril17.pages.LoginAzure;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,7 +35,7 @@ public class _2_SearchTest {
 
         //Upload New Evidence
 
-        WebElement uploadNewEvidance = driver.findElement(By.cssSelector("div .Upload__button__1UKe8"));
+        WebElement uploadNewEvidance = driver.findElement(By.xpath("//label[text() = 'Upload new evidence']"));
         uploadNewEvidance.click();
 
         StringSelection clipboard = new StringSelection("D:\\kiker.mp4");
@@ -59,17 +60,15 @@ public class _2_SearchTest {
         robot.delay(150);
         robot.keyRelease(KeyEvent.VK_ENTER);
 
-        if(!driver.findElements(By.cssSelector("div .UploadListItem__success__2-HA0")).isEmpty())
-        {
-            System.out.println("Test Passed for Upload New Evidence");
-        }
-        else {
-            System.out.println("Test Failed for Upload New Evidence");
-        }
+
+        WebElement resultOfTheUpload = driver.findElement(By.xpath("//span[text() = 'Uploaded!']"));
+        String resultsOfTheUpload = resultOfTheUpload.getText();
+        Assert.assertEquals("Uploaded!", resultsOfTheUpload);
 
         //Проверка на то, что поиск отрабатывает
 
-        WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
+        // До этого места всё ок. Сеарч не сработал
+        WebElement buttonSearch = driver.findElement(By.xpath("//span[text() = 'Search']"));
         buttonSearch.click();
 
         try{
@@ -79,12 +78,21 @@ public class _2_SearchTest {
             throw new Exception(e);
         }
 
-        if(!driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).isEmpty()) {
+        /*WebElement resultOfSearch = driver.findElement(By.cssSelector("div .VideoList__content__Hy8XE"));
+        String resultsOfTheUpload = resultOfTheUpload.getText();
+        Assert.assertEquals("Uploaded", resultsOfTheUpload);*/
+
+        // Не рабочее решение
+        int resultOfSearch = driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).size();
+        Assert.assertNotNull(resultOfSearch);
+
+
+        /*if(!driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).isEmpty()) {
             System.out.println("Test Passed for Search check");
         }
         else {
             System.out.println("Test Failed for Search check");
-        }
+        }*/
 
 
         //Проверка поиска по File name

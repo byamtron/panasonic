@@ -44,6 +44,15 @@ public class LoginAzure {
             robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             robot.delay(500);
             robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+            robot.mouseMove(1110, 675);
+            robot.delay(500);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.delay(500);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         }
         catch (AWTException e)
         {
