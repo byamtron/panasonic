@@ -29,16 +29,15 @@ public class _2_SearchTest {
     }
 
     @Test
-    public void searchCheck() throws Exception {
+    public void _0_basic_searchCheck() throws Exception {
 
         loginAzure.loginFlow();
 
-        //Upload New Evidence
+        // Upload new video
 
         WebElement uploadNewEvidance = driver.findElement(By.xpath("//label[text() = 'Upload new evidence']"));
         uploadNewEvidance.click();
-
-        StringSelection clipboard = new StringSelection("D:\\kiker.mp4");
+        StringSelection clipboard = new StringSelection("D:\\kiker_auto.mp4");
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(clipboard, null);
 
         Robot robot = null;
@@ -60,60 +59,48 @@ public class _2_SearchTest {
         robot.delay(150);
         robot.keyRelease(KeyEvent.VK_ENTER);
 
+        // Check that upload was successfully via status message
 
         WebElement resultOfTheUpload = driver.findElement(By.xpath("//span[text() = 'Uploaded!']"));
         String resultsOfTheUpload = resultOfTheUpload.getText();
         Assert.assertEquals("Uploaded!", resultsOfTheUpload);
 
-        //Проверка на то, что поиск отрабатывает
-
-        // До этого места всё ок. Сеарч не сработал
-        WebElement buttonSearch = driver.findElement(By.xpath("//span[text() = 'Search']"));
-        buttonSearch.click();
-
-        try{
+        try {
             Thread.sleep(3000);
-        }
-        catch(InterruptedException e){
+        } catch (InterruptedException e) {
             throw new Exception(e);
         }
 
-        /*WebElement resultOfSearch = driver.findElement(By.cssSelector("div .VideoList__content__Hy8XE"));
-        String resultsOfTheUpload = resultOfTheUpload.getText();
-        Assert.assertEquals("Uploaded", resultsOfTheUpload);*/
+        // Check that upload was successfully via search
 
-        // Не рабочее решение
-        int resultOfSearch = driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).size();
-        Assert.assertNotNull(resultOfSearch);
+        WebElement searchButton = driver.findElement(By.cssSelector("button.Button__button__3_Ozh.Button__round__2bChK"));
+        searchButton.click();
 
+        WebElement uploadedFile = driver.findElement(By.cssSelector("div .VideoListItem__name__2Pcaf[title = 'kiker_auto']"));
+        String uploadedFileResult = uploadedFile.getText();
+        Assert.assertEquals("kiker_auto", uploadedFileResult);
 
-        /*if(!driver.findElements(By.cssSelector("div .VideoList__content__Hy8XE")).isEmpty()) {
-            System.out.println("Test Passed for Search check");
-        }
-        else {
-            System.out.println("Test Failed for Search check");
-        }*/
+    }
 
+    @Test
+    public void _1_searchCheck() throws Exception {
 
         //Проверка поиска по File name
 
         WebElement fileName = driver.findElement(By.id("field-name"));
-        fileName.sendKeys("kiker");
+        fileName.sendKeys("kiker_auto");
         buttonSearch.click();
 
         try{
-            Thread.sleep(7000);
+            Thread.sleep(5000);
         }
         catch(InterruptedException e){
             throw new Exception(e);
         }
 
-        if(!driver.findElements(By.cssSelector("div .VideoListItem__name__2Pcaf[title=kiker]")).isEmpty()) {
-            System.out.println("Test Passed for Search_by_Name");
-        }
-        else {
-            System.out.println("Test Failed for Search_by_Name");
-        }
+        WebElement searchFieldName = driver.findElement(By.cssSelector("div .VideoListItem__name__2Pcaf[title = 'kiker_auto']"));
+        String searchFieldNameResult = searchFieldName.getText();
+        Assert.assertEquals("kiker_auto", searchFieldNameResult);
 
     }
 
