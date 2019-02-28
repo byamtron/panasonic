@@ -89,7 +89,8 @@ public class _2_SearchTest {
 
         WebElement fileName = driver.findElement(By.id("field-name"));
         fileName.sendKeys("kiker_auto");
-        buttonSearch.click();
+        WebElement searchButton = driver.findElement(By.cssSelector("button.Button__button__3_Ozh.Button__round__2bChK"));
+        searchButton.click();
 
         try{
             Thread.sleep(5000);

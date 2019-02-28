@@ -12,7 +12,9 @@ import org.junit.Assert;
 import com.gmail.sheremetevkiril17.pages.LoginAzure;
 
 import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
 
 public class _6_Redaction_Objects_Layers {
     private static WebDriver driver;
@@ -26,14 +28,41 @@ public class _6_Redaction_Objects_Layers {
     }
 
     @Test
-    public void redactionObjectsLayers() throws Exception {
+    public void _0_redactionObjectsLayers() throws Exception {
 
         loginAzure.loginFlow();
 
         //Selected object is displayed in the Object's library
 
-        WebElement buttonSearch = driver.findElement(By.xpath("//button[@kind = 'round']"));
-        buttonSearch.click();
+        WebElement uploadNewEvidance = driver.findElement(By.xpath("//label[text() = 'Upload new evidence']"));
+        uploadNewEvidance.click();
+        StringSelection clipboard = new StringSelection("D:\\kiker_auto.mp4");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(clipboard, null);
+
+        Robot robot = null;
+
+        try {
+            robot = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+        robot.delay(250);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.delay(150);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+
+        // Check that upload was successfully via status message
+
+        WebElement resultOfTheUpload = driver.findElement(By.xpath("//span[text() = 'Uploaded!']"));
+        String resultsOfTheUpload = resultOfTheUpload.getText();
+        Assert.assertEquals("Uploaded!", resultsOfTheUpload);
 
         try {
             Thread.sleep(3000);
@@ -41,18 +70,18 @@ public class _6_Redaction_Objects_Layers {
             throw new Exception(e);
         }
 
-        try {
-            Robot robot = new Robot();
-            robot.mouseMove(580, 335);
-            robot.delay(500);
-            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.delay(500);
-            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            robot.delay(1000);
+        // Check that upload was successfully via search
 
-        } catch (AWTException e) {
-            throw new Exception(e);
-        }
+        WebElement searchButton = driver.findElement(By.cssSelector("button.Button__button__3_Ozh.Button__round__2bChK"));
+        searchButton.click();
+
+        robot.mouseMove(580, 335);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(1000);
+
 
         try{
             Thread.sleep(4000);
@@ -61,50 +90,27 @@ public class _6_Redaction_Objects_Layers {
             throw new Exception(e);
         }
 
-        try {
-            Robot robot = new Robot();
-            robot.mouseMove(830, 460);
-            robot.delay(500);
-            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.mouseMove(870, 495);
-            robot.delay(500);
-            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        }
-        catch (AWTException e)
-        {
-            throw new Exception(e);
-        }
-
-
-        if (!driver.findElements(By.cssSelector("div.simplebar-scroll-content > div > div > button")).isEmpty()) {
-            System.out.println("Test Passed for selected object is displayed in the Object's library");
-        } else {
-            System.out.println("Test Failed for selected object is displayed in the Object's library");
-        }
-
+        robot.mouseMove(830, 460);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(870, 495);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 
         //Selected object is displayed in the layers list
 
-        if (!driver.findElements(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div")).isEmpty()) {
-            System.out.println("Test Passed for selected object is displayed in the layers list");
-        } else {
-            System.out.println("Test Failed for selected object is displayed in the layers list");
-        }
+        WebElement counterObjects = driver.findElement(By.cssSelector("div.Library__content__3E2Oo > div > div.Scrollable__container__3e-Q5 > div.simplebar-scroll-content > div"));
+        String counterObjectsResult = counterObjects.getAttribute("childElementCount");
+        Assert.assertEquals("1", counterObjectsResult);
 
         //Notification "In order to create a new object you need to unselect all the active objects"
 
-        try {
-            Robot robot = new Robot();
-            robot.mouseMove(580, 335);
-            robot.delay(500);
-            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.delay(500);
-            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            robot.delay(500);
-
-        } catch (AWTException e) {
-            throw new Exception(e);
-        }
+        robot.mouseMove(580, 335);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
 
 
         String notificationCheck = driver.findElement(By.cssSelector("div.Body__container__Lc5IM")).getText();
@@ -117,40 +123,32 @@ public class _6_Redaction_Objects_Layers {
         WebElement stopEditingLayer1 = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > div > label > div"));
         stopEditingLayer1.click();
 
-        try {
-            Robot robot = new Robot();
-            robot.mouseMove(860, 470);
-            robot.delay(500);
-            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-            robot.mouseMove(900, 510);
-            robot.delay(500);
-            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        }
-        catch (AWTException e)
-        {
-            throw new Exception(e);
-        }
-
-        int objectsCount = driver.findElements(By.cssSelector("div.simplebar-scroll-content > div > div > button")).size();
-        Assert.assertEquals(2, objectsCount);
+        robot.mouseMove(860, 470);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(900, 510);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 
         //Create second object and check it in the layers list
 
-        int layersCount = driver.findElements(By.cssSelector("div.LayerListItem__columnLeft__3RUV3 > div")).size();
-        Assert.assertEquals(2, layersCount);
+        WebElement counterObjectsSecond = driver.findElement(By.cssSelector("div.Library__content__3E2Oo > div > div.Scrollable__container__3e-Q5 > div.simplebar-scroll-content > div"));
+        String counterObjectsResultSecond = counterObjectsSecond.getAttribute("childElementCount");
+        Assert.assertEquals("2", counterObjectsResultSecond);
 
         WebElement stopEditingLayer2 = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > div:nth-child(1) > label > div"));
         stopEditingLayer2.click();
 
         //Start - Stop track
 
-        WebElement selectAll = driver.findElement(By.cssSelector("div.Properties__control__24jBs > label"));
-        selectAll.click();
+        stopEditingLayer1.click();
+        stopEditingLayer2.click();
+
         WebElement trackButton = driver.findElement(By.xpath("//span[text() = 'track']"));
         trackButton.click();
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(8000);
         } catch (InterruptedException e) {
             throw new Exception(e);
         }
@@ -162,16 +160,39 @@ public class _6_Redaction_Objects_Layers {
         WebElement stopTrackButton = driver.findElement(By.xpath("//span[text() = 'stop tracking']"));
         stopTrackButton.click();
 
+        //CROP
+
+        WebElement cropButton = driver.findElement(By.cssSelector("button.Button__button__3_Ozh.Timeline__action__1Dma5.Timeline__cut__2Bs_-.Button__bordered__2brn_"));
+        cropButton.click();
+
+        robot.mouseMove(830, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(970, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1070, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1270, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1470, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1770, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+
+
+        cropButton.click();
+
+
+        //Save, Apply and save as new, refresh child, click to child, VA, count of the objects founded after VA
         //VA
 
-        try {
-            Robot robot = new Robot();
-            robot.mouseMove(380, 325);
-            robot.delay(500);
-
-        } catch (AWTException e) {
-            throw new Exception(e);
-        }
+        /*robot.mouseMove(380, 325);
+        robot.delay(500);
 
 
         WebElement startVA = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > a > div > button:nth-child(2)"));
@@ -181,7 +202,7 @@ public class _6_Redaction_Objects_Layers {
 
         WebElement vaProgress = driver.findElement(By.xpath("//span[text() = 'Please wait while the video file is processing']"));
         String checkVAProgress = vaProgress.getText();
-        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);
+        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);*/
 
 
     }
