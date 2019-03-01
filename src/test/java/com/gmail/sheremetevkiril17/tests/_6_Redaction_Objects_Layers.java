@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Assert;
@@ -168,48 +169,128 @@ public class _6_Redaction_Objects_Layers {
         robot.mouseMove(830, 860);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseMove(970, 860);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseMove(1070, 860);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.mouseMove(1270, 860);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1370, 860);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.mouseMove(1470, 860);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1570, 860);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.mouseMove(1770, 860);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1680, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1760, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseMove(1810, 860);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.delay(500);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        WebElement saveVideoButton = driver.findElement(By.xpath("//span[text() = 'Save']"));
+        saveVideoButton.click();
+
+        WebElement saveVideoResult = driver.findElement(By.xpath("//span[text() = 'Saved']"));
+        String saveVideoResultSuccess = saveVideoResult.getText();
+        Assert.assertEquals("Saved", saveVideoResultSuccess);
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        WebElement applyAndSave = driver.findElement(By.xpath("//span[text() = 'Apply and save as new']"));
+        applyAndSave.click();
+
+        WebElement videoName = driver.findElement(By.id("field-name"));
+        videoName.sendKeys("auto_kiker");
+        WebElement saveButton = driver.findElement(By.cssSelector("div.Group__container__3P5ab.ChildVideoForm__actions__1UARV > button"));
+        saveButton.click();
+
+        try {
+            Thread.sleep(15000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        WebElement refreshButton = driver.findElement(By.cssSelector("div.FileManager__title__2nHOs > button"));
+        refreshButton.click();
+
+        robot.mouseMove(280, 355);
+        robot.delay(500);
+        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        robot.mouseMove(281, 356);
         robot.delay(500);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 
 
-        cropButton.click();
-
-
-        //Save, Apply and save as new, refresh child, click to child, VA, count of the objects founded after VA
-        //VA
-
-        /*robot.mouseMove(380, 325);
-        robot.delay(500);
-
-
-        WebElement startVA = driver.findElement(By.cssSelector("div.simplebar-scroll-content > div > a > div > button:nth-child(2)"));
+        WebElement startVA = driver.findElement(By.cssSelector("a.FileManagerItem__item__XUKtC.FileManagerItem__active__14jST > div > button:nth-child(2)"));
         startVA.click();
-        WebElement yesStartVA = driver.findElement(By.xpath("//span[text() = 'Yes']"));
-        yesStartVA.click();
 
         WebElement vaProgress = driver.findElement(By.xpath("//span[text() = 'Please wait while the video file is processing']"));
         String checkVAProgress = vaProgress.getText();
-        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);*/
+        Assert.assertEquals("Please wait while the video file is processing", checkVAProgress);
 
+        WebElement checkVA = driver.findElement(By.cssSelector("div.RedactionPage__disableEditorAndLibraryColumns__2W0s9 > div > button"));
 
+        try {
+            Thread.sleep(25000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        checkVA.click();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new Exception(e);
+        }
+
+        WebElement counterObjectsVA = driver.findElement(By.cssSelector("div.Library__content__3E2Oo > div > div.Scrollable__container__3e-Q5 > div.simplebar-scroll-content > div"));
+        String counterObjectsResultVA = counterObjectsVA.getAttribute("childElementCount");
+        Assert.assertEquals("2", counterObjectsResultVA);
     }
 
-    /*@AfterClass
+    @AfterClass
     public static void tearDown() {
         driver.quit();
-    }*/
+    }
 
 }
