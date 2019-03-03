@@ -1,4 +1,4 @@
-package com.gmail.sheremetevkiril17.tests;
+package com.gmail.sheremetevkiril17.tests.SmokeTest;
 
 import org.junit.*;
 import org.openqa.selenium.By;
@@ -6,57 +6,30 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.gmail.sheremetevkiril17.pages.LoginAzure;
-
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
 import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
+
+import com.gmail.sheremetevkiril17.pages.LoginAzureWithUploadNewEvidence;
 
 public class _1_Login_Multitenancy_Localization {
 
     private static WebDriver driver;
-    private static LoginAzure loginAzure;
+    private static LoginAzureWithUploadNewEvidence loginAzureWithUploadNewEvidence;
 
     @BeforeClass
     public static void setup() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
-        loginAzure = new LoginAzure(driver);
+        loginAzureWithUploadNewEvidence = new LoginAzureWithUploadNewEvidence(driver);
     }
+
 
     @Test
     public void _0_userLogin() throws Exception {
 
-        // Login to the application
+        // Login to the application and upload new evidence
 
-        loginAzure.loginFlow();
-
-        // Upload new video for the first Azure Directory
-
-        WebElement uploadNewEvidance = driver.findElement(By.xpath("//label[text() = 'Upload new evidence']"));
-        uploadNewEvidance.click();
-        StringSelection clipboard = new StringSelection("D:\\kiker_auto.mp4");
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(clipboard, null);
-
-        Robot robot = null;
-
-        try {
-            robot = new Robot();
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-
-        robot.delay(250);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.delay(150);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        loginAzureWithUploadNewEvidence.loginWithUploadNewEvidenceFlow();
 
         // Check that upload was successfully via status message
 

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="" />
+    <list default="true" id="fe794d86-b9cb-4bcf-a9a7-8da01b770e25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzureWithUploadNewEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_3_OpenPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_4_RedactionPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_1_Login_Multitenancy_Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_2_SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_3_OpenPlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_1_Login_Multitenancy_Localization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_2_SearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_3_OpenPlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,43 +27,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/panasonic$com_gmail_sheremetevkiril17_tests_SmokeTest_in_panasonic.ic" NAME="com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic Coverage Results" MODIFIED="1551626846089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gmail.sheremetevkiril17.tests.SmokeTest.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="panasonic" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_4_RedactionPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#10900#10901#0" expanded="true" />
-                <element signature="e#10929#10930#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_1_Login_Multitenancy_Localization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="186">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6418#6419#0" expanded="true" />
-                <element signature="e#6447#6448#0" expanded="true" />
+                <element signature="e#4631#4632#0" expanded="true" />
+                <element signature="e#4660#4661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzure.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="67">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#10929#10930#0" expanded="true" />
+                <element signature="e#10958#10959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzureWithUploadNewEvidence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_3_OpenPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_2_SearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,17 +142,26 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/OpenPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_3_OpenPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Save_SaveAsNew.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAD.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_7_LoginTestAD.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzure.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_1_LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/UploadNewEvidance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/UploadNewEvidences.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzureWithUploadNewEvidance.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_1_Login_Multitenancy_Localization.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_Redaction_Objects_Layers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_RedactionPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzureWithUploadNewEvidence.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_3_OpenPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_3_OpenPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/SmokeTest/_5_Redaction_Objects_Layers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java" />
       </list>
     </option>
   </component>
@@ -115,8 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +238,16 @@
               <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="SmokeTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551448238404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551626872911" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -188,6 +268,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gmail.sheremetevkiril17.tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gmail.sheremetevkiril17.pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,47 +285,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._6_Redaction_Objects_Layers._0_redactionObjectsLayers">
-    <configuration name="_1_Login_Multitenancy_Localization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="panasonic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._1_Login_Multitenancy_Localization" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_Login_Multitenancy_Localization._0_userLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="panasonic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._1_Login_Multitenancy_Localization" />
-      <option name="METHOD_NAME" value="_0_userLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic">
     <configuration name="_1_Login_Multitenancy_Localization.userLogin" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._1_Login_Multitenancy_Localization" />
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest._1_Login_Multitenancy_Localization" />
       <option name="METHOD_NAME" value="userLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -253,60 +306,88 @@
       <module name="panasonic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._1_Login_Multitenancy_Localization" />
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest._1_Login_Multitenancy_Localization" />
       <option name="METHOD_NAME" value="userLogin2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_Redaction_Objects_Layers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_3_OpenPlayerTest.openInPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._6_Redaction_Objects_Layers" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="panasonic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._6_Redaction_Objects_Layers" />
-      <option name="METHOD_NAME" value="_0_redactionObjectsLayers" />
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest._3_OpenPlayerTest" />
+      <option name="METHOD_NAME" value="openInPlayerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_Redaction_Objects_Layers.redactionObjectsLayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_4_RedactionPlayerTest.openInRedactionPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="panasonic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.*" />
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest._4_RedactionPlayerTest" />
+      <option name="METHOD_NAME" value="openInRedactionPlayerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_5_Redaction_Objects_Layers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="panasonic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest._5_Redaction_Objects_Layers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gmail.sheremetevkiril17.tests in panasonic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="panasonic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.gmail.sheremetevkiril17.tests._6_Redaction_Objects_Layers" />
-      <option name="METHOD_NAME" value="redactionObjectsLayers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="panasonic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.sheremetevkiril17.tests.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmail.sheremetevkiril17.tests.SmokeTest" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,19 +442,19 @@
       <item itemvalue="JUnit._1_Login_Multitenancy_Localization.userLogin" />
       <item itemvalue="JUnit._1_Login_Multitenancy_Localization.userLogin2" />
       <item itemvalue="Maven.panasonic" />
-      <item itemvalue="JUnit._1_Login_Multitenancy_Localization" />
-      <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
-      <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
-      <item itemvalue="JUnit._1_Login_Multitenancy_Localization._0_userLogin" />
-      <item itemvalue="JUnit._6_Redaction_Objects_Layers._0_redactionObjectsLayers" />
+      <item itemvalue="JUnit._3_OpenPlayerTest.openInPlayerTest" />
+      <item itemvalue="JUnit._4_RedactionPlayerTest.openInRedactionPlayerTest" />
+      <item itemvalue="JUnit._5_Redaction_Objects_Layers" />
+      <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
+      <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers._0_redactionObjectsLayers" />
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers.redactionObjectsLayers" />
-        <item itemvalue="JUnit._6_Redaction_Objects_Layers" />
-        <item itemvalue="JUnit._1_Login_Multitenancy_Localization._0_userLogin" />
-        <item itemvalue="JUnit._1_Login_Multitenancy_Localization" />
+        <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" />
+        <item itemvalue="JUnit._3_OpenPlayerTest.openInPlayerTest" />
+        <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
+        <item itemvalue="JUnit._5_Redaction_Objects_Layers" />
+        <item itemvalue="JUnit._4_RedactionPlayerTest.openInRedactionPlayerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +478,8 @@
       <workItem from="1547197573491" duration="200000" />
       <workItem from="1547197825189" duration="46335000" />
       <workItem from="1548659968317" duration="19997000" />
-      <workItem from="1550080151987" duration="23864000" />
+      <workItem from="1550080151987" duration="23905000" />
+      <workItem from="1551533247489" duration="14399000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest">
       <created>1546613815338</created>
@@ -424,39 +506,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 38m 13s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_4_RedactionPlayerTest_openInRedactionPlayerTest - 2019.03.03 at 18h 05m 55s.xml">
+      <configuration name="_4_RedactionPlayerTest.openInRedactionPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 39m 42s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_4_RedactionPlayerTest_openInRedactionPlayerTest - 2019.03.03 at 18h 06m 36s.xml">
+      <configuration name="_4_RedactionPlayerTest.openInRedactionPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 45m 08s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_4_RedactionPlayerTest_openInRedactionPlayerTest - 2019.03.03 at 18h 07m 20s.xml">
+      <configuration name="_4_RedactionPlayerTest.openInRedactionPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 47m 11s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_4_RedactionPlayerTest_openInRedactionPlayerTest - 2019.03.03 at 18h 08m 06s.xml">
+      <configuration name="_4_RedactionPlayerTest.openInRedactionPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 51m 01s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_5_Redaction_Objects_Layers - 2019.03.03 at 18h 12m 06s.xml">
+      <configuration name="_5_Redaction_Objects_Layers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 53m 21s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="com_gmail_sheremetevkiril17_tests_in_panasonic - 2019.03.03 at 18h 16m 55s.xml">
+      <configuration name="com.gmail.sheremetevkiril17.tests in panasonic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 56m 07s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_3_OpenPlayerTest_openInPlayerTest - 2019.03.03 at 18h 19m 31s.xml">
+      <configuration name="_3_OpenPlayerTest.openInPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 10h 57m 57s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="_3_OpenPlayerTest_openInPlayerTest - 2019.03.03 at 18h 25m 32s.xml">
+      <configuration name="_3_OpenPlayerTest.openInPlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 11h 07m 48s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="com_gmail_sheremetevkiril17_tests_SmokeTest_in_panasonic - 2019.03.03 at 18h 27m 37s.xml">
+      <configuration name="com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_Redaction_Objects_Layers__0_redactionObjectsLayers - 2019.03.01 at 11h 10m 01s.xml">
-      <configuration name="_6_Redaction_Objects_Layers._0_redactionObjectsLayers" configurationId="JUnit" />
+    <history-entry file="com_gmail_sheremetevkiril17_tests_SmokeTest_in_panasonic - 2019.03.03 at 18h 31m 43s.xml">
+      <configuration name="com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87094000" />
+    <option name="totallyTimeSpent" value="101534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,9 +551,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.18336888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +561,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.18336888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32666665" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32666665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,7 +571,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3288889" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2588889" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,40 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_3_OpenPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3811#3812#0" expanded="true" />
-            <element signature="e#3840#3841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_4_OpenInRedactionPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAD.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_7_LoginTestAD.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
@@ -643,45 +691,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_2_SearchTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="92" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="565" selection-start-line="565" selection-end-line="565" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_6_Redaction_Objects_Layers.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#10900#10901#0" expanded="true" />
-            <element signature="e#10929#10930#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_1_Login_Multitenancy_Localization.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="360">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/UploadNewEvidences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6418#6419#0" expanded="true" />
-            <element signature="e#6447#6448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/_5_RedactionPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/pages/LoginAzureWithUploadNewEvidence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="69" column="57" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_2_SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_3_OpenPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_4_RedactionPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4631#4632#0" expanded="true" />
+            <element signature="e#4660#4661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#10929#10930#0" expanded="true" />
+            <element signature="e#10958#10959#0" expanded="true" />
           </folding>
         </state>
       </provider>
