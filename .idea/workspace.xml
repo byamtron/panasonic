@@ -257,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551626872911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551627233531" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -441,12 +441,12 @@
     <list>
       <item itemvalue="JUnit._1_Login_Multitenancy_Localization.userLogin" />
       <item itemvalue="JUnit._1_Login_Multitenancy_Localization.userLogin2" />
-      <item itemvalue="Maven.panasonic" />
       <item itemvalue="JUnit._3_OpenPlayerTest.openInPlayerTest" />
       <item itemvalue="JUnit._4_RedactionPlayerTest.openInRedactionPlayerTest" />
       <item itemvalue="JUnit._5_Redaction_Objects_Layers" />
       <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests in panasonic" />
       <item itemvalue="JUnit.com.gmail.sheremetevkiril17.tests.SmokeTest in panasonic" />
+      <item itemvalue="Maven.panasonic" />
     </list>
     <recent_temporary>
       <list>
