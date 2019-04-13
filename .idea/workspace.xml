@@ -24,7 +24,7 @@
     <favorites_list name="panasonic" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_3_OpenPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/SmokeTest/_5_Redaction_Objects_Layers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java" />
       </list>
     </option>
   </component>
@@ -103,60 +104,6 @@
               <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
               <item name="panasonic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="panasonic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="panasonic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sheremetevkiril17" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="SmokeTest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +113,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551627400609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555178423469" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -389,6 +336,10 @@
       <workItem from="1548659968317" duration="19997000" />
       <workItem from="1550080151987" duration="23905000" />
       <workItem from="1551533247489" duration="14399000" />
+      <workItem from="1551628714260" duration="1624000" />
+      <workItem from="1551797327757" duration="26000" />
+      <workItem from="1551797390334" duration="637000" />
+      <workItem from="1554295304369" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="LoginTest">
       <created>1546613815338</created>
@@ -447,7 +398,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101626000" />
+    <option name="totallyTimeSpent" value="104527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +412,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.18336888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,6 +442,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.19829424" />
@@ -675,21 +627,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="1309">
+          <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
           <folding>
-            <element signature="e#10929#10930#0" expanded="true" />
-            <element signature="e#10958#10959#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_1_Login_Multitenancy_Localization.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/sheremetevkiril17/tests/SmokeTest/_5_Redaction_Objects_Layers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="561">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -40,7 +40,7 @@ public class LoginAzureWithUploadNewEvidence {
 
         loginField.sendKeys("sheremetyevkv@oxagile.com");
         loginNext.click();
-        passwordField.sendKeys("Rbhfrtyqwe1723");
+        passwordField.sendKeys("Rbhfrtyqwe17");
 
         Robot robot = null;
 

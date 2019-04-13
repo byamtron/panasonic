@@ -35,7 +35,7 @@ public class LoginAzure {
 
         loginField.sendKeys("sheremetyevkv@oxagile.com");
         loginNext.click();
-        passwordField.sendKeys("Rbhfrtyqwe1723");
+        passwordField.sendKeys("Rbhfrtyqwe17");
 
         try {
             Robot robot = new Robot();
